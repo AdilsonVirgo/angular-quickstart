@@ -90,7 +90,7 @@ footer img {
   padding: 16px 32px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  display: block;
   font-size: 16px;
   float: right;
 }
@@ -102,7 +102,7 @@ footer img {
   padding: 16px 32px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  display: block;
   font-size: 16px;
   float: right;
 }
