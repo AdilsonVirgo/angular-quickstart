@@ -15,23 +15,30 @@
 <button id="aboutbtn" routerLink="/about">About</button>
 <button id="sayhellobtn" routerLink="/sayhello">Say Hello</button>
 <router-outlet></router-outlet>
-<div class="resource-list">
-  <h2>
-      Here are some resources to help you on your Angular + Netlify journey:
-  </h2>
-  <ul>
-    <li>
-      <a href="https://github.com/netlify-templates/angular-quickstart">The Angular Quickstart repo</a>
-    </li>
-    <li>
-      <a href="https://www.netlify.com/tags/angular/">Netlify Blog: Angular posts</a>
-    <li>
-      <a href="https://docs.netlify.com/">Netlify Docs</a>
-    </li>
-    <li>
-      <a href="https://angular.io/">Angular Docs</a>
-    </li>
-  </ul>
+<h2 style="text-align:center">Testing image</h2>
+
+<div class="row">
+  <div class="column">
+    <img src="../assets/images/logo.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../assets/images/logo.png" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../assets/images/logo.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../assets/images/logo.png" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../assets/images/logo.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../assets/images/logo.png" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../assets/images/logo.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
 </div>
 <footer class="footer">
   Made with <a href="https://netlify.com"><img src="https://res.cloudinary.com/dzkoxrsdj/image/upload/v1646714899/netliheart_ezlkim.svg" alt="Netlify Logo" /></a> for you!
